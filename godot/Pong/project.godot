@@ -10,7 +10,8 @@ config_version=4
 
 [application]
 
-config/name="Test"
+config/name="Pong"
+config/description="Classic game \"Pong\" developed with Godot."
 run/main_scene="res://Level/Level.tscn"
 config/icon="res://icon.png"
 
