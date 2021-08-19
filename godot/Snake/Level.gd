@@ -60,7 +60,6 @@ func draw_snake_head(block: Vector2, snake_body):
 
 func draw_snake_tail(block: Vector2, snake_body):
 	var tail_direction = snake_tail_direction(snake_body)
-	print(tail_direction)
 	var tile
 	if tail_direction == 'right': tile = Vector2(0,0)	
 	if tail_direction == 'left': tile = Vector2(1,0)	
